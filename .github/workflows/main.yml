@@ -12,7 +12,7 @@ jobs:
       matrix:
         node-version: [16.x]
 
-    steps:s
+    steps:
       - uses: actions/checkout@v4
       - name: Testing Build pre-Deploy
         uses: actions/setup-node@v4
